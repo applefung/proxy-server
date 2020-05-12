@@ -27,7 +27,7 @@ public class HttpProxy {
         System.out.println("=================================== Finish cache file setup====================================");
 
         try {
-            //set serversocket，bind port:808
+            //set serversocket，bind port:8888
             serverSocket=new ServerSocket(8888);
             int i=0;
             //Loop, grab all the request from this port
